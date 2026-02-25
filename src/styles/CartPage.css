@@ -1,0 +1,28 @@
+.quantity-controls {
+  display: inline-flex;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.quantity-controls button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #f9fafb;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.quantity-controls button:hover {
+  background-color: #f3f4f6;
+}
+
+.quantity-controls span {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  background-color: white;
+  min-width: 40px;
+  text-align: center;
+}
